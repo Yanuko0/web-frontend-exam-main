@@ -36,3 +36,6 @@ yarn-error.log*
 
 # test/tool caches
 /.swc/
+
+# Company design materials (screenshots, original SVGs): kept locally, not published
+/src/figma/

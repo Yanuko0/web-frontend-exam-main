@@ -1,6 +1,6 @@
 # Yile 前端考題 規格文件
 
-> 設計來源：Figma 截圖（[src/figma](../src/figma)）。每次規格異動請同步更新本文件與 [CHANGELOG.md](../CHANGELOG.md)。
+> 設計來源：Figma 設計稿截圖（出題公司所有，僅在本機 `src/figma`，未納入版本控制）。每次規格異動請同步更新本文件與 [CHANGELOG.md](../CHANGELOG.md)。
 >
 > 文件索引：[DESIGN.md](DESIGN.md)（顏色、字體、Component）· [ARCHITECTURE.md](ARCHITECTURE.md)（進入點、Data Flow）· [TESTING.md](TESTING.md)（測試範圍）
 
@@ -117,7 +117,7 @@
 | `src/components` | Hero、FilterBar、JobCard、JobGrid、JobDialog、ImageCarousel |
 | `src/theme` | MUI theme（色票、字型） |
 | `src/assets` | Hero 分層素材（背景、人物、Logo 為 WebP；左右眼為 SVG） |
-| `src/figma` | Figma 設計稿截圖 |
+| `src/figma` | Figma 設計稿截圖與原始素材（僅本機保留，不納入版本控制） |
 | `src/pages` | Next.js 頁面（`index.js`、`_app.js`、`_document.js`）與 API Routes（`api/v1/*`） |
 | `src/server` | 伺服器端資料（`data/`）、`jobs.js` 篩選分頁、`handler.js`（只允許 GET、不快取） |
 | `src/i18n` | 多國語言設定、訊息檔、Provider |

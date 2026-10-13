@@ -234,7 +234,7 @@ src/
 ├── theme/        # MUI theme（色票、字型）
 ├── utils/        # 淨化 HTML、圖片網址檢查等小工具
 ├── assets/       # Hero 分層素材（WebP／SVG）
-├── figma/        # 設計稿截圖與原始素材（僅供對照，不參與建置）
+├── figma/        # 設計稿截圖與原始素材（僅在本機保留，未上傳到 GitHub；不參與建置）
 └── __tests__/    # 安全、效能預算與 Lighthouse 測試
 docs/             # 規格、設計、架構、測試、安全、效能文件
 scripts/          # lighthouse.js（yarn bench）
@@ -266,7 +266,7 @@ scripts/          # lighthouse.js（yarn bench）
 
 ### 素材使用說明
 
-`src/figma` 與 `src/assets` 內的設計素材屬於出題公司，僅供這次線上考使用，請勿另用他途。
+設計素材屬於出題公司，僅供這次線上考使用，請勿另用他途。原始的 Figma 截圖與 SVG（`src/figma`）**未上傳到此 repo**；`src/assets` 內的圖片是為了讓專案能執行，由該素材轉出的 WebP／SVG。
 
 ### 文件
 

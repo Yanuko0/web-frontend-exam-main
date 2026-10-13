@@ -36,7 +36,7 @@
 | `src/components` | 純展示與互動元件（含 `Hero`、`PageBackdrop`），不直接呼叫 API（`JobDialog` 透過 `useJob`） |
 | `src/theme` | MUI theme（顏色、字型、圓角） |
 | `src/assets` | Hero 分層素材（背景、人物、Logo 為 WebP；左右眼為 SVG） |
-| `src/figma` | 設計稿截圖（僅供參考，不參與 build） |
+| `src/figma` | 設計稿截圖與原始素材（出題公司所有，僅在本機保留，**不納入版本控制**，不參與 build） |
 
 ## 4. Data Flow
 

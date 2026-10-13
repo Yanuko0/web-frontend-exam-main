@@ -2,6 +2,11 @@
 
 每次改動請在最上方新增一筆（日期 · 類型 · 內容）。類型：Added / Changed / Fixed / Docs。
 
+## 2026-10-13（第 17 次）
+
+### Chore
+- `.gitignore` 加入 `/src/figma/`：出題公司的 Figma 截圖與原始 SVG（約 17MB）只留在本機，不上傳到公開的 GitHub repo；文件中指向該資料夾的連結改為說明文字。執行專案所需的素材仍在 `src/assets`。
+
 ## 2026-10-13（第 16 次）
 
 ### Docs

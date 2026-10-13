@@ -1,6 +1,6 @@
 # 設計規範：顏色、字體、Component
 
-> 來源：Figma 截圖（[src/figma](../src/figma)）與程式碼 [src/theme/index.js](../src/theme/index.js)。修改任一值請同步更新本文件與 [CHANGELOG.md](../CHANGELOG.md)。
+> 來源：Figma 設計稿截圖（出題公司所有，僅在本機 `src/figma`，未納入版本控制）與程式碼 [src/theme/index.js](../src/theme/index.js)。修改任一值請同步更新本文件與 [CHANGELOG.md](../CHANGELOG.md)。
 
 ## 1. 顏色
 

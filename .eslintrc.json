@@ -1,0 +1,35 @@
+{
+  "root": true,
+  "extends": [
+    "airbnb",
+    "airbnb/hooks"
+  ],
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "ignorePatterns": [
+    ".next/",
+    "node_modules/",
+    "src/figma/"
+  ],
+  "rules": {
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "react/react-in-jsx-scope": "off"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  }
+}
